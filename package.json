@@ -1,0 +1,23 @@
+{
+  "name": "countdown",
+  "version": "1.0.0",
+  "description": "countdown timer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/github.com/loiee.git"
+  },
+  "keywords": [
+    "countdown",
+    "time"
+  ],
+  "author": "loiee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/github.com/loiee/issues"
+  },
+  "homepage": "https://github.com/github.com/loiee#readme"
+}

@@ -50,3 +50,4 @@ function padZero(num) {
     return result.length > 1 ? result : '0' + result
 }
 
+module.exports=Countdown

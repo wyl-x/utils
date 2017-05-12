@@ -1,5 +1,5 @@
 {
-  "name": "countdown",
+  "name": "countdown-mini",
   "version": "1.0.0",
   "description": "countdown timer",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/github.com/loiee.git"
+    "url": "git+https://github.com/loiee/countdown.git"
   },
   "keywords": [
     "countdown",
@@ -17,7 +17,7 @@
   "author": "loiee",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/github.com/loiee/issues"
+    "url": "https://github.com/loiee/countdown/issues"
   },
-  "homepage": "https://github.com/github.com/loiee#readme"
+  "homepage": "https://github.com/loiee/countdown"
 }

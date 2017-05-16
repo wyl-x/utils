@@ -1,9 +1,9 @@
 /**
  * created by loiee 
  * [Countdown description]
- * @param {String} time   传入日期，如 '2017-05-01 08:00'
- * @param {Number} option 负数代表过去的时间，正数代表未来的时间
- * return {Object}  包含天数，小时，分钟，秒数的对象
+ * @param {String} time   Example:'2017-05-01 08:00'
+ * @param {Number} option: A number negative or positive
+ * return {Object}  An Object with keys: day,hour,minute,second 
  */
 
 function Countdown(time, option) {
@@ -26,17 +26,14 @@ function Countdown(time, option) {
             s: padZero(second),
         }
     }
-
     var dayTime = 24 * 60 * 60 * 1000
     var hourTime = 60 * 60 * 1000
     var minTime = 60 * 1000
     var secTime = 1000
-
     day = parseInt(milliSeconds / dayTime)
     hour = parseInt((milliSeconds - day * dayTime) / hourTime)
     minute = parseInt((milliSeconds - day * dayTime - hour * hourTime) / minTime)
     second = parseInt((milliSeconds - day * dayTime - hour * hourTime - minute * minTime) / secTime)
-
     return {
         d: padZero(day),
         h: padZero(hour),
@@ -49,5 +46,4 @@ function padZero(num) {
     var result = String(num)
     return result.length > 1 ? result : '0' + result
 }
-
-module.exports=Countdown
+module.exports = Countdown

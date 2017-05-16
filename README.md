@@ -7,4 +7,4 @@
 	Countdown('2037-01-01 00:00', 1);
 	// => Object {d: "7173", h: "13", m: "35", s: "36"}
 ```
-## [demo](https://github.com/loiee/countdown)
+## [demo](https://loiee.github.io/countdown/)

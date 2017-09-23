@@ -1,23 +1,17 @@
 {
-  "name": "countdown-mini",
-  "version": "1.0.2",
-  "description": "countdown timer",
+  "name": "utils",
+  "version": "1.0.0",
+  "description": "my js library",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/loiee/countdown.git"
+    "b": "jsdoc index.js -t ./node_modules/docdash"
   },
   "keywords": [
-    "countdown",
-    "time"
+    "utils"
   ],
-  "author": "loiee",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/loiee/countdown/issues"
-  },
-  "homepage": "https://github.com/loiee/countdown"
+  "author": "WangYulong<wylong666@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "docdash": "^0.4.0"
+  }
 }

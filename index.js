@@ -13,9 +13,7 @@ function getQuery(key) {
 }
 
 
-/**
- *
- * 
+/** 
  * cookie操作
  * @type {Object}
  * @param name (必要) 要创建或覆盖的cookie的名字 (string)。
@@ -25,7 +23,6 @@ function getQuery(key) {
  * @param domain (可选) 例如 'example.com'， '.example.com' (包括所有子域名), 'subdomain.example.com'。如果没有定义，默认为当前文档位置的路径的域名部分 (string或null)。
  * @param secure (可选) cookie只会被https传输 (boolean或null)。
  *
- * 
  */
 var docCookies = {
     getItem: function(sKey) {
@@ -74,9 +71,8 @@ var docCookies = {
 
 /**
  *
- * 
  * 判断IE低版本
- * @return {Number} IE版本，5/6/7/8/9/false
+ * @return {Number} IE版本，5/6/7/8/9/false,false为非IE浏览器
  * @example
  * 
  * IE_Version()

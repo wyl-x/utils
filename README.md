@@ -1,7 +1,7 @@
 # my js utils library
 
 ## Documentation
-See http://loiee.github.io/utils/out for documentation. :rocket:
+See http://wyl-x.github.io/utils/out for documentation. :rocket:
 
 ## Install
 
